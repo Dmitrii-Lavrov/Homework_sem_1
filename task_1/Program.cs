@@ -7,4 +7,6 @@ int number_2 = Convert.ToInt32(Console.ReadLine()) ;
 if (number_1 < number_2)
     Console.WriteLine ("max = " + number_2);
 else
-    Console.WriteLine ("max = " + number_2);
+    Console.WriteLine ("max = " + number_1);
+
+
