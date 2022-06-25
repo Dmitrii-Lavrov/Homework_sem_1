@@ -8,5 +8,3 @@ if (number_1 < number_2)
     Console.WriteLine ("max = " + number_2);
 else
     Console.WriteLine ("max = " + number_1);
-
-
