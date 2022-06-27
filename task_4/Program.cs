@@ -3,12 +3,28 @@
 Console.Write("Input number: "); 
 int N = Convert.ToInt32(Console.ReadLine()) ;
 
-int count = 1;
+if (N > 0)
+   {
+    
+      int count = 1;
 
-while (count <= N)
-{
-    if ((count % 2) == 0) 
+      while (count <= N)
+      {
+      if ((count % 2) == 0) 
         Console.Write(count + ", ");
     
-    count ++;
-}
+      count ++;
+      }
+   }
+else   
+    {
+        int count = -1;
+
+      while (count >= N)
+      {
+      if ((count % 2) == 0) 
+        Console.Write(count + ", ");
+    
+      count --;
+      }
+    } 
