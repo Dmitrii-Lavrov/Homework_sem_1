@@ -17,7 +17,7 @@ void ShowArray(int[] array)
     }
 }
 
-Console.WriteLine("Введите колличество элементов в массиве");
+Console.WriteLine("Введите количество элементов в массиве");
 int num = Convert.ToInt32(Console.ReadLine());
 
 int[] myRandomArray = GenerateRandomArray(num);
@@ -51,7 +51,7 @@ void ShowArray(int[] array)
     }
 }
 
-Console.WriteLine("Введите колличество элементов в массиве");
+Console.WriteLine("Введите количество элементов в массиве");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите минимальное значение массива.");
 int min = Convert.ToInt32(Console.ReadLine());
@@ -92,7 +92,7 @@ void ShowArray(int[] array)
    
 }
 
-Console.WriteLine("Введите колличество элементов в массиве");
+Console.WriteLine("Введите количество элементов в массиве");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите минимальное значение массива");
 int min = Convert.ToInt32(Console.ReadLine());
