@@ -13,23 +13,23 @@ for (int i = 0; i < N; i++)
 
 
 
-/* // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+ // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 Console.Write("Input number: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int N = number;
 int sum = 0;
-while ((N / 10)  >  0)
+while (N  >  0)
 {
    sum = sum + N % 10;
    N = N / 10;
 }
-Console.WriteLine(number + " -> " + (N+sum)); */
+Console.WriteLine(number + " -> " + (sum)); 
 
 
 
 
 //Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
-Console.WriteLine("Введите мимнимальное значение диапазона случайных чисел");
+/* Console.WriteLine("Введите мимнимальное значение диапазона случайных чисел");
 int min = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите максимальное значение диапазона случайных чисел");
 int max = Convert.ToInt32(Console.ReadLine());
@@ -42,3 +42,4 @@ int[] Array = new int[N];
         Console.Write(Array[i] + " ");
     }
 Console.WriteLine(); 
+ */
