@@ -5,7 +5,7 @@
     for (int i = 0; i < M; i++)
     {
         Console.WriteLine($"Введите число {i+1}: ");
-        Array[i] = Convert.ToInt32(Console.ReadLine());;
+        Array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return Array;
 } 
